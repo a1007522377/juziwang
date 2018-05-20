@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>讨论区</title>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="jquery-ui.js"></script>
+	<link rel="stylesheet" type="text/css" href="jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="jquery-ui.theme.css">
+    <script>
+      $(function() {
+    $( "#accordion" ).accordion();
+  });
+  	</script>
+        <style>
+	body{
+		background:#FC9}
+	p{
+		font-family:"华文行楷";
+		font-size:34px;
+		color:#FC6}
+	p{
+		font-family:"华文行楷";
+		font-size:30px;
+		color:#6CC}
+	</style>
+</head>
+
+<body>
+<h1 style="font-family:'华文行楷';
+color:#C00;
+font-size:50px">橘子网最受欢迎的评论！</h1>
+	<div id="accordion">
+		<h2>热门评论</h2>
+		<div>
+        	<p>哇哦！说定下一个热门评论就是你哦！</p>
+		<form  action="index.html">
+        <textarea cols="100" rows="8" placeholder="发射评论"></textarea><br>
+        <input type="submit" value="发表" class="ui-button">
+        <input type="reset" value="取消" class="ui-button">
+        </form>
+		</div>
+		<h2>最新评论</h2>
+		<div>
+        	<p>啊哦！还没有评论，快来抢沙发！</p>
+		<form action="index.html">
+        <textarea cols="100" rows="8" placeholder="发射评论"></textarea><br>
+        <input type="submit" value="发表" class="ui-button">
+        <input type="reset" value="取消" class="ui-button">
+        </form>
+		</div>
+	</div>
+    <p align="right"><a href="index.html"><img src="img/return.png"></a></p>
+</body>
+</html>

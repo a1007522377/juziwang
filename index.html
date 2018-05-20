@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>谁家的电影院</title>
+	<link rel="stylesheet" type="text/css" href="jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="jquery-ui.theme.css">
+	<script type= "text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="jquery-ui.js"></script>
+	<script type="text/javascript">
+
+$(function(){
+$( "#dialog" ).dialog();
+ });
+</script>
+<style>
+body{background-color:#CCF}	
+#div1 ul li{display:none}
+li{
+list-style-type:none;
+float:left;
+width:300px;
+height:50px;
+text-align:center;}
+</style>
+
+
+</head>
+
+<body>
+<div id="dialog" title="橘子网">
+  <p>欢迎来到橘子网，一大波视频正在靠近......</p>
+</div>
+
+<table align="center" border="0" cellspacing="60">
+<tr>
+<td align="left"><font color="#000099" size="+5" face="华文行楷"><b>谁家的电影院</b></font></td>
+<td><a href="#">首页</a></td>
+<td><a href="login.html">登陆</a></td>
+<td><a href="remendianying.html">热门影片</a></td>
+<td><a href="taolunqu.html">讨论区</a></td>
+<td><a href="shoucang.html">收藏</a></td>
+</tr>
+</table>
+<p align="center">
+<div id="div1">
+<ul>
+<li style="display:block"><img src="img/changcheng1.jpg" alt="长城" id="img1"></li>
+</ul>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+
+<script type="text/javascript">
+	var c="changcheng1";
+function a1(){
+	var i=document.getElementById("img1");
+	switch(c){
+			case "changcheng1":
+			c="kongtianlie";
+
+			break;
+
+			case "kongtianlie":
+			c="jiangjunzaishang";
+
+			break;
+
+
+			case "jiangjunzaishang":
+			c="zhanlang3";
+
+			break;
+
+			case "zhanlang3":
+			c="changcheng1";
+
+			break;
+	}
+
+	i.src="img/"+c+".jpg";
+	console.log(i.src);
+};
+	setInterval("a1()",2000);
+
+
+</script>
+
+
+</p>
+<br><br><br><br>
+<table align="center">
+<tr>
+<td><img src="img/xiuxiudetiequn.jpg" alt="羞羞的铁拳" width="270" height="370"></td>
+<td><p>羞羞的铁拳<br>
+上映时间：2017-09-30<br>
+导演：宋阳/张吃鱼<br>
+地区：中国大陆<br>
+主演： 艾伦  马丽  沈腾  田雨<br>
+类型：喜剧/奇幻<br>
+片长：100分钟<br>
+简介：靠打假拳混日子的艾迪生（艾伦 饰），<br>
+本来和正义感十足的体育记者马小（马丽 饰）<br>
+是一对冤家，没想到因为一场意外的电击，男女<br>
+身体互换。性别错乱后，两人互坑互害，引发了<br>
+拳坛的大地震，也揭开了假拳界的秘密，惹来一<br>
+堆麻烦，最终两人在“卷莲门”副掌门张茱萸<br>
+（沈腾 饰）的指点下向恶势力挥起了羞羞的铁拳。
+</p></td>
+<td><img src="img/mizan.jpg" alt="密战" width="270" height="370"></td>
+
+<td><p>密战<br>
+上映：2017-11-03<br>
+地区：中国大陆<br>
+类型：战争热血动作特工信仰剧情谍战<br>
+导演：钟少雄<br>
+主演：郭富城、赵丽颖、张翰、任达华、张蓝心<br>
+别名：新永不消逝的电波<br>
+简介：淞沪会战后上海沦陷，地下工作者林翔<br>
+（郭富城 饰）受命来到危机四伏的上海，重建<br>
+惨遭敌人破坏的地下抗日战线。在这里他遇到单<br>
+纯却很有正义感的兰芳（赵丽颖 饰），这对<br>
+临时组成的“地下党夫妇”将在战火纷飞中，携手<br>
+与日本侵略者即伪政府特务展开惊险的生死较量......
+</p></td>
+</tr>
+<tr>
+<td><img src="img/tianshengbudui.jpg" alt="天生不对" width="270" height="370"></td>
+<td><p>天生不对<br>
+上映：2017-11-10<br>
+地区：中国大陆<br>
+类型：喜剧风水爱情浪漫<br>
+导演：谷德昭<br>
+主演：周渝民 薛凯琪 郑中基 恬妞 高捷<br>
+别民：Perfect Couple<br>
+简介：秦瑞（周渝民 饰）仪表堂堂，英俊潇洒，<br>
+但总遇不到适合自己的女人，恋爱一波三折，<br>
+他有些灰心，感觉自己这辈子都不会遇见可以<br>
+白头到老的女人了。直到有一天，他遇见了佩佩<br>
+（薛凯琪 饰），真正的爱情才逐渐开始，而他<br>
+也开始明白什么叫天生一对。
+</p></td>
+<td><img src="img/zhengyilianmeng.jpg" alt="正义联盟" width="270" height="370"></td>
+<td><p>正义联盟<br>
+上映：2017-11-17<br>
+地区：美国<br>
+导演：扎克.施奈德<br>
+主演：本.阿弗莱克 亨利.卡维尔 盖尔.加朵<br>
+ 埃兹拉.米勒<br>
+类型：动作/科幻/奇幻<br>
+片长：120分钟<br>
+简介：受到超人无私奉献的影响，蝙蝠侠重燃了<br>
+对人类的信心，接受了新盟友——神奇女侠<br>
+（戴安娜.普林斯）的帮助，去对抗更加强大的<br>
+敌人。蝙蝠侠和神奇女侠一同寻找并招募了一支<br>
+超人类联盟来抵抗新觉醒的威胁。但尽管这支队<br>
+伍集结了超人、蝙蝠侠、神奇女侠、闪电侠、海<br>
+王和刚骨等人，他们似乎无法阻止敌人对地球的进攻......
+</p></td>
+</tr>
+<tr>
+
+<td><img src="img/quanqiofengbao.jpg" alt="全球风暴" width="270" height="370"></td>
+<td><p>全球风暴<br>
+上映时间：2017-10-27<br>
+导演：迪安•德夫林<br>
+地区：美国<br>
+主演： 杰拉德•巴特勒  吉姆•斯特吉斯<br>
+艾比•考尼什  亚历山德拉•玛丽亚•拉娜
+类型：动作/科幻/灾难<br>
+片长：109分钟<br>
+简介：《全球风暴》的故事发生在未来，环境<br>
+恶化导致自然灾害愈演愈烈，因此世界各国通<br>
+力合作，创造了能控制天气的强大气象卫星网<br>
+络。但是卫星网络突发故障开始攻击地球，摧毁<br>
+一切的气象大灾变席卷世界。而随着事态发展，<br>
+浩劫背后的阴谋人祸也开始浮出水面，令主人公<br>
+的救世之旅面临更严峻考验。</p>
+</td>
+<td><img src="img/fengkuangyuanshiren 2.jpg" alt="疯狂原始人2" width="270" height="370"></td>
+<td><p>疯狂原始人2<br>
+上映：201712-22<br>
+地区：美国<br>
+类型：动画<br>
+导演：克里斯.桑德斯<br>
+主演：尼谷拉斯.凯奇<br>
+语言：英语<br>
+《疯狂原始人2》将延续第一部的故事，在史前<br>
+石器时代，穴居家族古鲁与智人盖在经历了一<br>
+系列冒险后准备安定下来，却迎来了新的挑战。<br>
+莱斯利•曼恩配音的角色是与古鲁家族有着竞争<br>
+关系的高级家族族长，而凯特•戴琳斯配音的角<br>
+色是这个高级家族的女儿，她有着过人的捕猎天赋，<br>
+但却被家长压制着………2013年《疯狂原始人》在全<br>
+球上映后拿下了5.87亿美元的票房成绩，同时也获<br>
+得了超强的口碑，影片在中国大陆取得3.95亿元人<br>
+民币，超越了《马达加斯加3》的2.11亿，是梦工......
+</p></td>
+</tr>
+
+</table>
+</body>
+</html>
